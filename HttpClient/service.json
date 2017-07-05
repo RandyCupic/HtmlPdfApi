@@ -87,30 +87,30 @@
                 "margin_top":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Top margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Top margin of PDF"
                 },
                 "margin_bottom":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Bottom margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Bottom margin of PDF"
                 },
                 "margin_right":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Right margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Right margin of PDF"
                 },
                 "margin_left":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Left margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Left margin of PDF"
                 },
                 "background":{
                     "required": false,
@@ -349,30 +349,30 @@
                 "margin_top":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Top margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Top margin of PDF"
                 },
                 "margin_bottom":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Bottom margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Bottom margin of PDF"
                 },
                 "margin_right":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Right margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Right margin of PDF"
                 },
                 "margin_left":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Left margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Left margin of PDF"
                 },
                 "background":{
                     "required": false,
@@ -611,30 +611,30 @@
                 "margin_top":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Top margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Top margin of PDF"
                 },
                 "margin_bottom":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Bottom margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Bottom margin of PDF"
                 },
                 "margin_right":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Right margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Right margin of PDF"
                 },
                 "margin_left":{
                     "required": false,
                     "location": "postField",
-                    "type": "integer",
-                    "default": 10,
-                    "description": "Left margin of PDF (in mm)"
+                    "type": "string",
+                    "default": "10mm",
+                    "description": "Left margin of PDF"
                 },
                 "background":{
                     "required": false,

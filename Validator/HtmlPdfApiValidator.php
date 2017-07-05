@@ -64,17 +64,17 @@ class HtmlPdfApiValidator implements ValidatorInterface {
                 array("landscape", "portrait"))))
             throw new InvalidParameterException('Orientation must be set to either "landscape" or "portrait"');
 
-        if (!empty($params['margin_top']) && !is_int($params['margin_top']))
-            throw new InvalidParameterException('Margin top must be an integer.');
+        if (!empty($params['margin_top']) && !is_string($params['margin_top']))
+            throw new InvalidParameterException('Margin top must be a string.');
 
-        if (!empty($params['margin_bottom']) && !is_int($params['margin_bottom']))
-            throw new InvalidParameterException('Margin top must be an integer.');
+        if (!empty($params['margin_bottom']) && !is_string($params['margin_bottom']))
+            throw new InvalidParameterException('Margin bottom must be a string.');
 
-        if (!empty($params['margin_left']) && !is_int($params['margin_left']))
-            throw new InvalidParameterException('Margin top must be an integer.');
+        if (!empty($params['margin_left']) && !is_string($params['margin_left']))
+            throw new InvalidParameterException('Margin left must be a string.');
 
-        if (!empty($params['margin_right']) && !is_int($params['margin_right']))
-            throw new InvalidParameterException('Margin top must be an integer.');
+        if (!empty($params['margin_right']) && !is_string($params['margin_right']))
+            throw new InvalidParameterException('Margin right must be a string.');
 
         if (!empty($params['background']) && (!is_int($params['background']) || !in_array($params['background'], array(
                     0, 1 ) )))
@@ -153,7 +153,7 @@ class HtmlPdfApiValidator implements ValidatorInterface {
                 'Use print media must be either 0 or 1 (alternative: use bool values');
 
         if (!empty($params['zoom']) && !is_numeric($params['zoom']))
-            throw new InvalidParameterException('Zoom must be an integer.');
+            throw new InvalidParameterException('Zoom must be a float (eg. 1.2).');
 
         if (!empty($params['viewport_size']) &&
             (!is_string($params['viewport_size'] || preg_match("^\\d+x\\d+$", $params['viewport_size']))))
@@ -250,4 +250,4 @@ class HtmlPdfApiValidator implements ValidatorInterface {
 
         return $params;
     }
-} 
+}
